@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light and dark mode</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="light-mode">
+        <header class="header">
+            <h2 class="mode-title">
+                Light mode
+            </h2>
+            <i class='bx bxs-sun' onclick="toggle('dark')"></i>
+        </header>
+        <div class="show-case">
+            <img src="images/light.jpg" alt="" class="image">
+            <p class="description">
+                In the light, I can be your snow white.
+            </p>
+        </div>
+    </div>
+
+    <div class="dark-mode">
+        <header class="header">
+            <h2 class="mode-title">
+                Dark mode
+            </h2>
+            <i class='bx bxs-moon' onclick="toggle('light')"></i>
+        </header>
+        <div class="show-case">
+            <img src="images/dark.jpg" alt="" class="image">
+            <p class="description">
+                On the night, I will be your dark knight.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
